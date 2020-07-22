@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
     <link rel="stylesheet" href="css/slicknav.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/hamburgers.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.css">
     <link rel="stylesheet" href="css/bootstrap-grid.css">
@@ -16,14 +17,17 @@
 <header>
     <div class="container">
         <div class="header">
-            <div class="logo">
+            <div class="logo wow animate__animated animate__fadeInTopLeft">
                 <a href="index.php"><img src="img/logo.png" alt="logo"></a>
             </div>
 
-            <div class="menu-block">
+            <div class="menu-block wow animate__animated animate__fadeInTopRight">
+
+
+                <div class="mobile-menu"></div>
 
                 <nav class="main-menu">
-                    <ul class="menu">
+                    <ul id="menu" class="menu">
                         <li><a href="#">External Link</a></li>
                         <li><a href="#">Contact Us</a></li>
                         <li><a href="#">Feedback</a></li>
@@ -31,7 +35,7 @@
                     </ul>
                 </nav>
 
-                <button class="hamburger hamburger--arrow" type="button">
+                <button class="hamburger hamburger&#45;&#45;arrow" type="button">
                     <span class="hamburger-box">
                         <span class="hamburger-inner"></span>
                     </span>
@@ -46,17 +50,17 @@
 <main>
     <section id="slide">
         <div class="container">
-            <div class="slide">
-                <div class="info">
+            <div class="slide row">
+                <div class="col-12 col-lg-5 info wow animate__animated animate__fadeInLeftBig">
                     <h1>Your Title Goes Here<br>
                         Make It Long & Maybe<br>
                         3 Lines</h1>
                     <div class="button">
-                        <a class="azure-full">explore</a>
-                        <a class="azure-empty">Add to cart</a>
+                        <a class="azure-full wow animate__animated animate__pulse" data-wow-delay="3s">explore</a>
+                        <a class="azure-empty wow animate__animated animate__pulse" data-wow-delay="3s">Add to cart</a>
                     </div>
                 </div>
-                <div class="img">
+                <div class="col-12 col-lg-7 img wow animate__animated animate__fadeInRightBig">
                     <img src="img/slide/shoe-1.png" alt="shoe">
                 </div>
             </div>
@@ -65,40 +69,40 @@
     <section id="shue">
         <div class="container">
             <img src="img/shue/shue_2.png" alt="shue">
-            <a class="azure-full">buy now</a>
+            <a class="azure-full wow animate__animated animate__pulse" data-wow-iteration="5">buy now</a>
         </div>
     </section>
     <section id="way">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-7 wow animate__animated animate__fadeInLeftBig">
                     <img src="img/way/shue-3.png" alt="shue">
                 </div>
-                <div class="col-12 col-lg-6 d-flex flex-column justify-content-between align-items-center">
+                <div class="col-12 col-lg-5 way-text wow animate__animated animate__fadeInRightBig">
                     <h2>The Way You Like It</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
-                    <a class="azure-full" href="#">buy now</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    <a class="azure-full wow animate__animated animate__pulse" data-wow-iteration="5" href="#">buy now</a>
                 </div>
             </div>
         </div>
     </section>
     <section id="nike">
         <div class="container">
-            <img src="img/nike/shue-4.png" alt="shoe">
+            <img class="wow animate__animated animate__fadeIn" src="img/nike/shue-4.png" alt="shoe">
     
             <div class="shue-full-info d-flex justify-content-between">
-                <div class="shue-info">
+                <div class="shue-info wow animate__animated animate__fadeInLeftBig">
                     <h3>NIKE HYPERVENOM PHELON 3 FG</h3>
                     <p>NIKE HYPERVENOM PHELON 3 FG</p>
     
                     <div class="price d-flex justify-content-between align-items-center">
                         <span>$300</span>
-                        <a class="azure-full" href="#">buy now</a>
+                        <a class="azure-full wow animate__animated animate__pulse" data-wow-iteration="5" href="#">buy now</a>
                     </div>
     
                 </div>
     
-                <div class="review">
+                <div class="review wow animate__animated animate__fadeInRightBig">
                     <img src="img/icon/star.png" alt="star">
                     <p>3550 Review</p>
                 </div>
@@ -110,13 +114,13 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-2 m-auto">
-                <div class="logo">
+                <div class="logo wow animate__animated animate__fadeInBottomLeft">
                     <a href="#"><img src="img/header/logo.png" alt="logo"></a>
                 </div>
             </div>
             <div class="col-12 col-lg-8">
                 <div class="row">
-                    <div class="col-12 col-lg-4 col-sm-4">
+                    <div class="col-12 col-lg-4 col-sm-4 wow animate__animated animate__fadeIn">
                         <div class="nav">
                             <ul>
                                 <li><a href="#">External Link</a></li>
@@ -126,7 +130,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-4 col-sm-4">
+                    <div class="col-12 col-lg-4 col-sm-4 wow animate__animated animate__fadeIn" data-wow-delay="1s">
                         <div class="nav">
                             <ul>
                                 <li><a href="#">External Link</a></li>
@@ -136,7 +140,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-4 col-sm-4">
+                    <div class="col-12 col-lg-4 col-sm-4 wow animate__animated animate__fadeIn" data-wow-delay="2s">
                         <div class="nav">
                             <ul>
                                 <li><a href="#">External Link</a></li>
@@ -149,7 +153,7 @@
                 </div>
             </div>
             <div class="col-12 col-lg-2 m-auto">
-                <div class="social">
+                <div class="social wow animate__animated animate__fadeInBottomRight">
                     <a href="#"><img src="img/icon/f.png" alt="social"></a>
                     <a href="#"><img src="img/icon/tw.png" alt="social"></a>
                     <a href="#"><img src="img/icon/hz.png" alt="social"></a>
@@ -161,8 +165,9 @@
     </div>
 </footer>
 
-<script src="js/jquery.slicknav.min.js"></script>
 <script src="js/jquery.min.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
+<script src="js/wow.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
